@@ -151,10 +151,10 @@ export default function LandingPage() {
           imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3Do3l1ShNQWHbImSzzoeNWne4vb/uploaded-1778952496966-pi3zkljm.png"},
         {
           id: "4",          name: "David W.",          role: "Adventurer",          company: "Canada",          rating: 5,
-          imageSrc: "http://img.b2bpic.net/free-photo/happy-couple-spend-weekend-nature-drinks-coffee-enjoy-being-fresh-air-use-binoculars-dressed-warm-casual-clothes-stands-each-other-blue-wall_273609-33668.jpg"},
+          imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3Do3l1ShNQWHbImSzzoeNWne4vb/uploaded-1778952496966-pi3zkljm.png"},
         {
           id: "5",          name: "Maria L.",          role: "Soloist",          company: "Spain",          rating: 5,
-          imageSrc: "http://img.b2bpic.net/free-photo/young-hipster-company-friends-vacation-sitting-beach-bean-bags_285396-380.jpg"},
+          imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3Do3l1ShNQWHbImSzzoeNWne4vb/uploaded-1778952496966-pi3zkljm.png"},
       ]}
       kpiItems={[
         {
