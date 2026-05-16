@@ -125,9 +125,9 @@ export default function LandingPage() {
         {
           id: "p4",          name: "Mountain Vistas",          price: "View",          variant: "Nature",          imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3Do3l1ShNQWHbImSzzoeNWne4vb/uploaded-1778952438717-k1mft2wc.jpg"},
         {
-          id: "p5",          name: "Grand Entrance",          price: "Hotel",          variant: "Lobby",          imageSrc: "http://img.b2bpic.net/free-photo/view-luxurious-hotel-interior-space_23-2150683457.jpg"},
+          id: "p5",          name: "Grand Entrance",          price: "Hotel",          variant: "Lobby",          imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3Do3l1ShNQWHbImSzzoeNWne4vb/uploaded-1778952617759-kvp9hqrj.jpg"},
         {
-          id: "p6",          name: "Garden Path",          price: "Nature",          variant: "Flora",          imageSrc: "http://img.b2bpic.net/free-photo/empty-outside-way-path-foliage_1253-513.jpg"},
+          id: "p6",          name: "Garden Path",          price: "Nature",          variant: "Flora",          imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3Do3l1ShNQWHbImSzzoeNWne4vb/uploaded-1778952631655-mro7tdvf.jpg"},
       ]}
       title="Hotel Highlights"
       description="Take a closer look at what we have to offer."
