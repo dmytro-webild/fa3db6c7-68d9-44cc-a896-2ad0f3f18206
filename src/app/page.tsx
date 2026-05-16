@@ -127,7 +127,7 @@ export default function LandingPage() {
         {
           id: "p5",          name: "Grand Entrance",          price: "Hotel",          variant: "Lobby",          imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3Do3l1ShNQWHbImSzzoeNWne4vb/uploaded-1778952617759-kvp9hqrj.jpg"},
         {
-          id: "p6",          name: "Garden Path",          price: "Nature",          variant: "Flora",          imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3Do3l1ShNQWHbImSzzoeNWne4vb/uploaded-1778952631655-mro7tdvf.jpg"},
+          id: "p6",          name: "Garden Path",          price: "Nature",          variant: "Flora",          imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3Do3l1ShNQWHbImSzzoeNWne4vb/uploaded-1778953619995-n6f4qspc.jpg"},
       ]}
       title="Hotel Highlights"
       description="Take a closer look at what we have to offer."
