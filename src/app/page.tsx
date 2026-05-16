@@ -142,19 +142,19 @@ export default function LandingPage() {
       testimonials={[
         {
           id: "1",          name: "Sarah J.",          role: "Traveler",          company: "UK",          rating: 5,
-          imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3Do3l1ShNQWHbImSzzoeNWne4vb/uploaded-1778952496966-pi3zkljm.png"},
+          imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3Do3l1ShNQWHbImSzzoeNWne4vb/uploaded-1778953542008-66xdq85o.png"},
         {
           id: "2",          name: "Mark R.",          role: "Guest",          company: "USA",          rating: 5,
-          imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3Do3l1ShNQWHbImSzzoeNWne4vb/uploaded-1778952496966-pi3zkljm.png"},
+          imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3Do3l1ShNQWHbImSzzoeNWne4vb/uploaded-1778953542008-66xdq85o.png"},
         {
           id: "3",          name: "Emily P.",          role: "Family",          company: "France",          rating: 4,
-          imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3Do3l1ShNQWHbImSzzoeNWne4vb/uploaded-1778952496966-pi3zkljm.png"},
+          imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3Do3l1ShNQWHbImSzzoeNWne4vb/uploaded-1778953542008-66xdq85o.png"},
         {
           id: "4",          name: "David W.",          role: "Adventurer",          company: "Canada",          rating: 5,
-          imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3Do3l1ShNQWHbImSzzoeNWne4vb/uploaded-1778952496966-pi3zkljm.png"},
+          imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3Do3l1ShNQWHbImSzzoeNWne4vb/uploaded-1778953542008-66xdq85o.png"},
         {
           id: "5",          name: "Maria L.",          role: "Soloist",          company: "Spain",          rating: 5,
-          imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3Do3l1ShNQWHbImSzzoeNWne4vb/uploaded-1778952496966-pi3zkljm.png"},
+          imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3Do3l1ShNQWHbImSzzoeNWne4vb/uploaded-1778953542008-66xdq85o.png"},
       ]}
       kpiItems={[
         {
