@@ -64,7 +64,7 @@ export default function LandingPage() {
           href: "#contact",
         },
       ]}
-      imageSrc="http://img.b2bpic.net/free-photo/beautiful-luxury-outdoor-swimming-pool-hotel-resort_74190-7434.jpg"
+      imageSrc="http://img.b2bpic.net/free-photo/beautiful-luxury-outdoor-swimming-pool-hotel-resort_74190-7434.jpg?_wi=1"
       imageAlt="Club Alda Hotel Resort"
     />
   </div>
@@ -88,7 +88,7 @@ export default function LandingPage() {
           title: "Hotel Rating",
         },
       ]}
-      imageSrc="http://img.b2bpic.net/free-photo/close-up-tasty-cookies-table_23-2148331686.jpg"
+      imageSrc="http://img.b2bpic.net/free-photo/close-up-tasty-cookies-table_23-2148331686.jpg?_wi=1"
       imageAlt="Relaxed Hotel Interior"
       mediaAnimation="slide-up"
       metricsAnimation="slide-up"
@@ -112,7 +112,7 @@ export default function LandingPage() {
             imageSrc: "http://img.b2bpic.net/free-photo/two-female-tourists-hold-map-find-places_1150-5739.jpg",
             imageAlt: "Aqua Park Detail",
           },
-          imageSrc: "http://img.b2bpic.net/free-photo/beautiful-luxury-outdoor-swimming-pool-hotel-resort_74190-7434.jpg",
+          imageSrc: "http://img.b2bpic.net/free-photo/beautiful-luxury-outdoor-swimming-pool-hotel-resort_74190-7434.jpg?_wi=2",
           imageAlt: "lapethos aqua park water slide",
         },
         {
@@ -126,7 +126,7 @@ export default function LandingPage() {
             imageSrc: "http://img.b2bpic.net/free-photo/vintage-landscape-photo_23-2149728836.jpg",
             imageAlt: "Coastal View",
           },
-          imageSrc: "http://img.b2bpic.net/free-photo/close-up-tasty-cookies-table_23-2148331686.jpg",
+          imageSrc: "http://img.b2bpic.net/free-photo/close-up-tasty-cookies-table_23-2148331686.jpg?_wi=2",
           imageAlt: "lapethos aqua park water slide",
         },
         {
@@ -140,7 +140,7 @@ export default function LandingPage() {
             imageSrc: "http://img.b2bpic.net/free-photo/friendly-cheerful-hotel-administrator-taking-guest-feedback-asking-about-their-stay-check-out-process-resort-staff-employees-working-front-desk-check-reception_482257-65130.jpg",
             imageAlt: "Welcoming desk",
           },
-          imageSrc: "http://img.b2bpic.net/free-photo/3d-rendering-beautiful-luxury-bedroom-suite-hotel-with-tv-working-table_105762-2022.jpg",
+          imageSrc: "http://img.b2bpic.net/free-photo/3d-rendering-beautiful-luxury-bedroom-suite-hotel-with-tv-working-table_105762-2022.jpg?_wi=1",
           imageAlt: "lapethos aqua park water slide",
         },
       ]}
@@ -162,7 +162,7 @@ export default function LandingPage() {
           name: "Comfort Rooms",
           price: "Standard",
           variant: "Cozy",
-          imageSrc: "http://img.b2bpic.net/free-photo/3d-rendering-beautiful-luxury-bedroom-suite-hotel-with-tv-working-table_105762-2022.jpg",
+          imageSrc: "http://img.b2bpic.net/free-photo/3d-rendering-beautiful-luxury-bedroom-suite-hotel-with-tv-working-table_105762-2022.jpg?_wi=2",
         },
         {
           id: "p2",
