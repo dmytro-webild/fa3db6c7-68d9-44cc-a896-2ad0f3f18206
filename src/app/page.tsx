@@ -39,7 +39,7 @@ export default function LandingPage() {
         {
           name: "Contact",          id: "contact"},
       ]}
-      brandName="Club Alda"
+      brandName="Club Alda Hotel"
     />
   </div>
 
@@ -53,7 +53,7 @@ export default function LandingPage() {
         {
           text: "Check Availability",          href: "#contact"},
       ]}
-      imageSrc="http://img.b2bpic.net/free-photo/beautiful-luxury-outdoor-swimming-pool-hotel-resort_74190-7434.jpg"
+      imageSrc="https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3Do3l1ShNQWHbImSzzoeNWne4vb/uploaded-1778951928314-2xquzkfv.jpg"
       imageAlt="Club Alda Hotel Resort"
     />
   </div>
@@ -71,7 +71,7 @@ export default function LandingPage() {
         {
           value: "3-Star",          title: "Hotel Rating"},
       ]}
-      imageSrc="http://img.b2bpic.net/free-photo/close-up-tasty-cookies-table_23-2148331686.jpg"
+      imageSrc="https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3Do3l1ShNQWHbImSzzoeNWne4vb/uploaded-1778951945632-pnrxe3r0.jpg"
       imageAlt="Relaxed Hotel Interior"
       mediaAnimation="slide-up"
       metricsAnimation="slide-up"
@@ -86,21 +86,21 @@ export default function LandingPage() {
       features={[
         {
           title: "Proximity to Fun",          description: "Just a short walk from Lapethos Aqua Park for family entertainment.",          phoneOne: {
-            imageSrc: "http://img.b2bpic.net/free-photo/colourful-plastic-slides-water-park-sunlight_1150-12378.jpg",            imageAlt: "Aqua Park"},
+            imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3Do3l1ShNQWHbImSzzoeNWne4vb/uploaded-1778951957996-uasr7jcz.jpg",            imageAlt: "Aqua Park"},
           phoneTwo: {
-            imageSrc: "http://img.b2bpic.net/free-photo/two-female-tourists-hold-map-find-places_1150-5739.jpg",            imageAlt: "Aqua Park Detail"}
+            imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3Do3l1ShNQWHbImSzzoeNWne4vb/uploaded-1778952229702-wwgu0o7f.jpg",            imageAlt: "Aqua Park Detail"}
         },
         {
           title: "Beach Access",          description: "Enjoy the Mediterranean sun, only 5km from the famous Mare Monte Beach.",          phoneOne: {
-            imageSrc: "http://img.b2bpic.net/free-photo/aerial-view-colorful-beach-huts-along-rye-shoreline_1308-189689.jpg",            imageAlt: "Mare Monte Beach"},
+            imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3Do3l1ShNQWHbImSzzoeNWne4vb/uploaded-1778951968290-mn96h00o.jpg",            imageAlt: "Mare Monte Beach"},
           phoneTwo: {
-            imageSrc: "http://img.b2bpic.net/free-photo/vintage-landscape-photo_23-2149728836.jpg",            imageAlt: "Coastal View"}
+            imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3Do3l1ShNQWHbImSzzoeNWne4vb/uploaded-1778952239838-kl6e8t05.jpg",            imageAlt: "Coastal View"}
         },
         {
           title: "Exceptional Service",          description: "Our dedicated staff ensures your stay in Lapta is nothing short of exceptional.",          phoneOne: {
-            imageSrc: "http://img.b2bpic.net/free-photo/person-ask-receptionist-skiing-slopes_482257-76693.jpg",            imageAlt: "Staff service"},
+            imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3Do3l1ShNQWHbImSzzoeNWne4vb/uploaded-1778952208010-l6y72sdp.jpg",            imageAlt: "Staff service"},
           phoneTwo: {
-            imageSrc: "http://img.b2bpic.net/free-photo/friendly-cheerful-hotel-administrator-taking-guest-feedback-asking-about-their-stay-check-out-process-resort-staff-employees-working-front-desk-check-reception_482257-65130.jpg",            imageAlt: "Welcoming desk"}
+            imageSrc: "https://img.b2bpic.net/free-photo/hotel-guest-entering-reception-with-luggage-travelling-abroad-attend-important-business-meetings-entrepreneur-approaching-front-desk-check-booking-accommodation-close-up_482257-65305.jpg?id=53000719",            imageAlt: "Welcoming desk"}
         },
       ]}
       showStepNumbers={false}
@@ -117,13 +117,13 @@ export default function LandingPage() {
       useInvertedBackground={false}
       products={[
         {
-          id: "p1",          name: "Comfort Rooms",          price: "Standard",          variant: "Cozy",          imageSrc: "http://img.b2bpic.net/free-photo/3d-rendering-beautiful-luxury-bedroom-suite-hotel-with-tv-working-table_105762-2022.jpg"},
+          id: "p1",          name: "Comfort Rooms",          price: "Standard",          variant: "Cozy",          imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3Do3l1ShNQWHbImSzzoeNWne4vb/uploaded-1778952295954-n7bhgzrz.jpg"},
         {
-          id: "p2",          name: "Dining Terrace",          price: "All Day",          variant: "Food",          imageSrc: "http://img.b2bpic.net/free-photo/summer-restaurant-mediterranean-coast-beautiful-sunset-tekirova-kemer-turkey_146671-18882.jpg"},
+          id: "p2",          name: "Dining Terrace",          price: "All Day",          variant: "Food",          imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3Do3l1ShNQWHbImSzzoeNWne4vb/uploaded-1778952409885-7q53i17j.jpg"},
         {
-          id: "p3",          name: "Poolside Bliss",          price: "Relax",          variant: "Fun",          imageSrc: "http://img.b2bpic.net/free-photo/swimming-pool_74190-7327.jpg"},
+          id: "p3",          name: "Poolside Bliss",          price: "Relax",          variant: "Fun",          imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3Do3l1ShNQWHbImSzzoeNWne4vb/uploaded-1778952420780-9g5m1g8m.jpg"},
         {
-          id: "p4",          name: "Mountain Vistas",          price: "View",          variant: "Nature",          imageSrc: "http://img.b2bpic.net/free-photo/autumn-hiking-trail_649448-738.jpg"},
+          id: "p4",          name: "Mountain Vistas",          price: "View",          variant: "Nature",          imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3Do3l1ShNQWHbImSzzoeNWne4vb/uploaded-1778952438717-k1mft2wc.jpg"},
         {
           id: "p5",          name: "Grand Entrance",          price: "Hotel",          variant: "Lobby",          imageSrc: "http://img.b2bpic.net/free-photo/view-luxurious-hotel-interior-space_23-2150683457.jpg"},
         {
@@ -142,13 +142,13 @@ export default function LandingPage() {
       testimonials={[
         {
           id: "1",          name: "Sarah J.",          role: "Traveler",          company: "UK",          rating: 5,
-          imageSrc: "http://img.b2bpic.net/free-photo/expressive-middle-aged-woman-posing_344912-2831.jpg"},
+          imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3Do3l1ShNQWHbImSzzoeNWne4vb/uploaded-1778952496966-pi3zkljm.png"},
         {
           id: "2",          name: "Mark R.",          role: "Guest",          company: "USA",          rating: 5,
-          imageSrc: "http://img.b2bpic.net/free-photo/man-walking-nature-medium-shot_23-2148970170.jpg"},
+          imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3Do3l1ShNQWHbImSzzoeNWne4vb/uploaded-1778952496966-pi3zkljm.png"},
         {
           id: "3",          name: "Emily P.",          role: "Family",          company: "France",          rating: 4,
-          imageSrc: "http://img.b2bpic.net/free-photo/beautiful-woman-sits-chair-near-sea_169016-21188.jpg"},
+          imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3Do3l1ShNQWHbImSzzoeNWne4vb/uploaded-1778952496966-pi3zkljm.png"},
         {
           id: "4",          name: "David W.",          role: "Adventurer",          company: "Canada",          rating: 5,
           imageSrc: "http://img.b2bpic.net/free-photo/happy-couple-spend-weekend-nature-drinks-coffee-enjoy-being-fresh-air-use-binoculars-dressed-warm-casual-clothes-stands-each-other-blue-wall_273609-33668.jpg"},
