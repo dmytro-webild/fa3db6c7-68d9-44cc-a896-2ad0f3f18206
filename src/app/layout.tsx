@@ -8,12 +8,13 @@ import { getVisualEditScript } from "@/utils/visual-edit-script";
 import { Manrope } from "next/font/google";
 import { DM_Sans } from "next/font/google";
 import { Libre_Baskerville } from "next/font/google";
+import Tag from "@/tag/Tag";
 
 
 
 export const metadata: Metadata = {
-  title: 'Club Alda Hotel | Lapta Retreat',
-  description: 'Discover Club Alda Hotel, a cozy retreat in Lapta surrounded by mountains, near water parks and beaches.',
+  title: "Club Alda Hotel | Lapta Retreat",
+  description: "Discover Club Alda Hotel, a cozy retreat in Lapta surrounded by mountains, near water parks and beaches.",
   openGraph: {
     "title": "Club Alda Hotel",
     "description": "Stay in Lapta at the mountain-side Club Alda Hotel.",
@@ -54,7 +55,8 @@ export default function RootLayout({
                   __html: `${getVisualEditScript()}`
               }}
           />
-        </body>
+        <Tag />
+</body>
       </ServiceWrapper>
     </html>
   );
