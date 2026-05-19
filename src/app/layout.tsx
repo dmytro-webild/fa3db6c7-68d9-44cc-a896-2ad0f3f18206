@@ -13,7 +13,7 @@ import Tag from "@/tag/Tag";
 
 
 export const metadata: Metadata = {
-  title: "Club Alda Hotel | Lapta Retreat",
+  title: "Club Alda Hotel | Lapta ",
   description: "Discover Club Alda Hotel, a cozy retreat in Lapta surrounded by mountains, near water parks and beaches.",
   openGraph: {
     "title": "Club Alda Hotel",
