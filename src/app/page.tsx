@@ -188,7 +188,7 @@ export default function LandingPage() {
       description="Get in touch for bookings, inquiries, or special requests. We look forward to welcoming you to Club Alda."
       buttons={[
         {
-          text: "Book Now",          href: "http://clubalda.traveleto.com"},
+          text: "Book Now",          href: "https://www.airbnb.com/rooms/1745494666125517427?adults=1&s=67&unique_share_id=a4e1d19d-6dbb-49e4-822b-0041d0e713cd"},
         {
           text: "+90 392 821 87 80",          href: "tel:+903928218780"},
       ]}
