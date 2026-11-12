@@ -46,7 +46,7 @@ export default function LandingPage() {
       buttons={[
         { text: "Book Now", href: "https://www.airbnb.com/rooms/1745494666125517427?adults=1&s=67&unique_share_id=a4e1d19d-6dbb-49e4-822b-0041d0e713cd" },
       ]}
-      imageSrc="https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3Do3l1ShNQWHbImSzzoeNWne4vb/uploaded-1778951928314-2xquzkfv.jpg"
+      imageSrc="https://storage.googleapis.com/webild/users/user_3Do3l1ShNQWHbImSzzoeNWne4vb/uploaded-1794499073232-3qwicp1f.jpg"
       imageAlt="Club Alda Hotel Resort"
     />
   </div>
