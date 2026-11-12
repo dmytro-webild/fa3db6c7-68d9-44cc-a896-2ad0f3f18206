@@ -1,31 +1,17 @@
 "use client";
 
-import { ThemeProvider } from "@/providers/themeProvider/ThemeProvider";
 import ReactLenis from "lenis/react";
 import ContactCTA from '@/components/sections/contact/ContactCTA';
 import FaqSimpleHighlight from '@/components/sections/faq/FaqSimpleHighlight';
 import FeatureCardNine from '@/components/sections/feature/FeatureCardNine';
 import FooterLogoReveal from '@/components/sections/footer/FooterLogoReveal';
 import HeroBillboardScroll from '@/components/sections/hero/HeroBillboardScroll';
-import MetricSplitMediaAbout from '@/components/sections/about/MetricSplitMediaAbout';
 import NavbarLayoutFloatingOverlay from '@/components/navbar/NavbarLayoutFloatingOverlay/NavbarLayoutFloatingOverlay';
 import ProductCardFour from '@/components/sections/product/ProductCardFour';
 import TestimonialCardSixteen from '@/components/sections/testimonial/TestimonialCardSixteen';
 
 export default function LandingPage() {
   return (
-    <ThemeProvider
-        defaultButtonVariant="text-shift"
-        defaultTextAnimation="entrance-slide"
-        borderRadius="rounded"
-        contentWidth="mediumLarge"
-        sizing="largeSmall"
-        background="circleGradient"
-        cardStyle="subtle-shadow"
-        primaryButtonStyle="radial-glow"
-        secondaryButtonStyle="radial-glow"
-        headingFontWeight="extrabold"
-    >
       <ReactLenis root>
   <div id="nav" data-section="nav">
       <NavbarLayoutFloatingOverlay
@@ -59,14 +45,28 @@ export default function LandingPage() {
   </div>
 
   <div id="about" data-section="about">
-      <div
-        id="about"
-        data-section="about"
-        data-webild-component="MetricSplitMediaAbout"
-        data-webild-component-path="@/components/sections/about/MetricSplitMediaAbout"
-      >
-        {/* Content removed per user request */}
-      </div>
+      <FeatureCardNine
+      animationType="slide-up"
+      textboxLayout="default"
+      useInvertedBackground={true}
+      features={[
+        {
+          title: "Our History",          description: "A story of passion and hospitality in the heart of Lapta.",          phoneOne: {
+            imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3Do3l1ShNQWHbImSzzoeNWne4vb/uploaded-1778951957996-uasr7jcz.jpg",            imageAlt: "History Image 1"},
+          phoneTwo: {
+            imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3Do3l1ShNQWHbImSzzoeNWne4vb/uploaded-1778951968290-mn96h00o.jpg",            imageAlt: "History Image 2"}
+        },
+        {
+          title: "Our Mission",          description: "To provide every guest with an unforgettable experience.",          phoneOne: {
+            imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3Do3l1ShNQWHbImSzzoeNWne4vb/uploaded-1778952208010-l6y72sdp.jpg",            imageAlt: "Mission Image 1"},
+          phoneTwo: {
+            imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3Do3l1ShNQWHbImSzzoeNWne4vb/uploaded-1778952229702-wwgu0o7f.jpg",            imageAlt: "Mission Image 2"}
+        }
+      ]}
+      showStepNumbers={false}
+      title="About Club Alda"
+      description="Discover the inspiration behind our peaceful mountain retreat."
+    />
   </div>
 
   <div id="features" data-section="features">
@@ -205,6 +205,5 @@ export default function LandingPage() {
     />
   </div>
       </ReactLenis>
-    </ThemeProvider>
   );
 }
