@@ -44,7 +44,7 @@ export default function LandingPage() {
       title="Escape to Club Alda"
       description="Surrounded by mountains, our laid-back retreat offers the perfect blend of coastal serenity and comfort."
       buttons={[
-        { text: "Check Availability", href: "https://www.airbnb.com/rooms/1745494666125517427?adults=1&s=67&unique_share_id=a4e1d19d-6dbb-49e4-822b-0041d0e713cd" },
+        { text: "Book Now", href: "https://www.airbnb.com/rooms/1745494666125517427?adults=1&s=67&unique_share_id=a4e1d19d-6dbb-49e4-822b-0041d0e713cd" },
       ]}
       imageSrc="https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3Do3l1ShNQWHbImSzzoeNWne4vb/uploaded-1778951928314-2xquzkfv.jpg"
       imageAlt="Club Alda Hotel Resort"
