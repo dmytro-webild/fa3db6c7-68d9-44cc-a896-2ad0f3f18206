@@ -59,23 +59,14 @@ export default function LandingPage() {
   </div>
 
   <div id="about" data-section="about">
-      <MetricSplitMediaAbout
-      useInvertedBackground={false}
-      title="Your Coastal Sanctuary"
-      description="Club Alda is a 3-star gem set in the heart of Lapta. Whether you're here to visit the nearby water parks or simply enjoy the mountain views, our doors are open."
-      metrics={[
-        {
-          value: "12m",          title: "Walk to Aqua Park"},
-        {
-          value: "m",          title: "Distance to Beach"},
-        {
-          value: "3-Star",          title: "Hotel Rating"},
-      ]}
-      imageSrc="https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3Do3l1ShNQWHbImSzzoeNWne4vb/uploaded-1778951945632-pnrxe3r0.jpg"
-      imageAlt="Relaxed Hotel Interior"
-      mediaAnimation="slide-up"
-      metricsAnimation="slide-up"
-    />
+      <div
+        id="about"
+        data-section="about"
+        data-webild-component="MetricSplitMediaAbout"
+        data-webild-component-path="@/components/sections/about/MetricSplitMediaAbout"
+      >
+        {/* Content removed per user request */}
+      </div>
   </div>
 
   <div id="features" data-section="features">
