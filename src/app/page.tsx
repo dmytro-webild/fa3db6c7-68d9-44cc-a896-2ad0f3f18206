@@ -67,7 +67,7 @@ export default function LandingPage() {
         {
           value: "12m",          title: "Walk to Aqua Park"},
         {
-          value: "5km",          title: "Distance to Beach"},
+          value: "m",          title: "Distance to Beach"},
         {
           value: "3-Star",          title: "Hotel Rating"},
       ]}
