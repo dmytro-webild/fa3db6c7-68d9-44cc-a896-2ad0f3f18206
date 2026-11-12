@@ -1,8 +1,9 @@
 "use client";
 
+import { ThemeProvider } from "@/providers/themeProvider/ThemeProvider";
 import ReactLenis from "lenis/react";
 import ContactCTA from '@/components/sections/contact/ContactCTA';
-import FaqTwoColumn from '@/components/sections/faq/FaqTwoColumn';
+import FaqBase from '@/components/sections/faq/FaqBase';
 import FeatureCardNine from '@/components/sections/feature/FeatureCardNine';
 import FooterLogoReveal from '@/components/sections/footer/FooterLogoReveal';
 import HeroBillboardScroll from '@/components/sections/hero/HeroBillboardScroll';
@@ -12,147 +13,151 @@ import TestimonialCardSixteen from '@/components/sections/testimonial/Testimonia
 
 export default function LandingPage() {
   return (
-    <ReactLenis root>
-      <div id="nav" data-section="nav">
-        <NavbarLayoutFloatingOverlay
-          navItems={[
-            { name: "Home", id: "hero" },
-            { name: "About", id: "about" },
-            { name: "Features", id: "features" },
-            { name: "Contact", id: "contact" },
-          ]}
-          brandName="Club Alda Hotel"
-        />
-      </div>
+    <ThemeProvider
+        defaultButtonVariant="text-shift"
+        defaultTextAnimation="entrance-slide"
+        borderRadius="rounded"
+        contentWidth="mediumLarge"
+        sizing="largeSmall"
+        background="circleGradient"
+        cardStyle="subtle-shadow"
+        primaryButtonStyle="radial-glow"
+        secondaryButtonStyle="radial-glow"
+        headingFontWeight="extrabold"
+    >
+      <ReactLenis root>
+  <div id="nav" data-section="nav">
+      <NavbarLayoutFloatingOverlay
+      navItems={[
+        { name: "Home", id: "hero" },
+        { name: "About", id: "about" },
+        { name: "Features", id: "features" },
+        { name: "Contact", id: "contact" },
+      ]}
+      brandName="Club Alda Hotel"
+    />
+  </div>
 
-      <div id="hero" data-section="hero">
-        <HeroBillboardScroll
-          background={{ variant: "radial-gradient" }}
-          title="Escape to Club Alda"
-          description="Surrounded by mountains, our laid-back retreat offers the perfect blend of coastal serenity and comfort."
-          buttons={[
-            { text: "Book Now", href: "https://www.airbnb.com/rooms/1745494666125517427?adults=1&s=67&unique_share_id=a4e1d19d-6dbb-49e4-822b-0041d0e713cd" },
-          ]}
-          imageSrc="https://storage.googleapis.com/webild/users/user_3Do3l1ShNQWHbImSzzoeNWne4vb/uploaded-1794499073232-3qwicp1f.jpg"
-          imageAlt="Club Alda Hotel Resort"
-        />
-      </div>
+  <div id="hero" data-section="hero">
+      <HeroBillboardScroll
+      background={{ variant: "radial-gradient" }}
+      title="Escape to Club Alda"
+      description="Surrounded by mountains, our laid-back retreat offers the perfect blend of coastal serenity and comfort."
+      buttons={[
+        { text: "Book Now", href: "https://www.airbnb.com/rooms/1745494666125517427?adults=1&s=67&unique_share_id=a4e1d19d-6dbb-49e4-822b-0041d0e713cd" },
+      ]}
+      imageSrc="https://storage.googleapis.com/webild/users/user_3Do3l1ShNQWHbImSzzoeNWne4vb/uploaded-1794499073232-3qwicp1f.jpg"
+      imageAlt="Club Alda Hotel Resort"
+    />
+  </div>
 
-      <div id="about" data-section="about">
-        <FeatureCardNine
-          animationType="slide-up"
-          textboxLayout="default"
-          useInvertedBackground={false}
-          features={[
-            {
-              title: "Coastal Comfort",              description: "Experience serene relaxation in our hand-picked room selection.",              phoneOne: { imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3Do3l1ShNQWHbImSzzoeNWne4vb/uploaded-1778952295954-n7bhgzrz.jpg", imageAlt: "Room view" },
-              phoneTwo: { imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3Do3l1ShNQWHbImSzzoeNWne4vb/uploaded-1778952617759-kvp9hqrj.jpg", imageAlt: "Lobby" }
-            },
-            {
-              title: "Mountain Serenity",              description: "Enjoy tranquil mornings surrounded by breathtaking mountain views.",              phoneOne: { imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3Do3l1ShNQWHbImSzzoeNWne4vb/uploaded-1778952438717-k1mft2wc.jpg", imageAlt: "Mountain view" },
-              phoneTwo: { imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3Do3l1ShNQWHbImSzzoeNWne4vb/uploaded-1778953619995-n6f4qspc.jpg", imageAlt: "Garden path" }
-            }
-          ]}
-          showStepNumbers={false}
-          title="About Us"
-          description="We pride ourselves on providing a memorable stay."
-        />
-      </div>
+  <div id="about" data-section="about">
+      {/* About section intentionally left blank */}
+  </div>
 
-      <div id="features" data-section="features">
-        <FeatureCardNine
-          animationType="slide-up"
-          textboxLayout="default"
-          useInvertedBackground={true}
-          features={[
-            {
-              title: "Proximity to Fun",              description: "Just a short walk from Lapethos Aqua Park for family entertainment.",              phoneOne: { imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3Do3l1ShNQWHbImSzzoeNWne4vb/uploaded-1778951957996-uasr7jcz.jpg", imageAlt: "Aqua Park" },
-              phoneTwo: { imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3Do3l1ShNQWHbImSzzoeNWne4vb/uploaded-1778952229702-wwgu0o7f.jpg", imageAlt: "Aqua Park Detail" }
-            },
-            {
-              title: "Beach Access",              description: "Enjoy the Mediterranean sun, only 5km from the famous Mare Monte Beach.",              phoneOne: { imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3Do3l1ShNQWHbImSzzoeNWne4vb/uploaded-1778951968290-mn96h00o.jpg", imageAlt: "Mare Monte Beach" },
-              phoneTwo: { imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3Do3l1ShNQWHbImSzzoeNWne4vb/uploaded-1778952239838-kl6e8t05.jpg", imageAlt: "Coastal View" }
-            },
-            {
-              title: "Exceptional Service",              description: "Our dedicated staff ensures your stay in Lapta is nothing short of exceptional.",              phoneOne: { imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3Do3l1ShNQWHbImSzzoeNWne4vb/uploaded-1778952208010-l6y72sdp.jpg", imageAlt: "Staff service" },
-              phoneTwo: { imageSrc: "https://img.b2bpic.net/free-photo/hotel-guest-entering-reception-with-luggage-travelling-abroad-attend-important-business-meetings-entrepreneur-approaching-front-desk-check-booking-accommodation-close-up_482257-65305.jpg?id=53000719", imageAlt: "Welcoming desk" }
-            }
-          ]}
-          showStepNumbers={false}
-          title="Why Choose Us"
-          description="Experience personalized hospitality in a stunning mountain setting."
-        />
-      </div>
+  <div id="features" data-section="features">
+      <FeatureCardNine
+      animationType="slide-up"
+      textboxLayout="default"
+      useInvertedBackground={true}
+      features={[
+        {
+          title: "Proximity to Fun",          description: "Just a short walk from Lapethos Aqua Park for family entertainment.",          phoneOne: { imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3Do3l1ShNQWHbImSzzoeNWne4vb/uploaded-1778951957996-uasr7jcz.jpg", imageAlt: "Aqua Park" },
+          phoneTwo: { imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3Do3l1ShNQWHbImSzzoeNWne4vb/uploaded-1778952229702-wwgu0o7f.jpg", imageAlt: "Aqua Park Detail" }
+        },
+        {
+          title: "Beach Access",          description: "Enjoy the Mediterranean sun, only 5km from the famous Mare Monte Beach.",          phoneOne: { imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3Do3l1ShNQWHbImSzzoeNWne4vb/uploaded-1778951968290-mn96h00o.jpg", imageAlt: "Mare Monte Beach" },
+          phoneTwo: { imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3Do3l1ShNQWHbImSzzoeNWne4vb/uploaded-1778952239838-kl6e8t05.jpg", imageAlt: "Coastal View" }
+        },
+        {
+          title: "Exceptional Service",          description: "Our dedicated staff ensures your stay in Lapta is nothing short of exceptional.",          phoneOne: { imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3Do3l1ShNQWHbImSzzoeNWne4vb/uploaded-1778952208010-l6y72sdp.jpg", imageAlt: "Staff service" },
+          phoneTwo: { imageSrc: "https://img.b2bpic.net/free-photo/hotel-guest-entering-reception-with-luggage-travelling-abroad-attend-important-business-meetings-entrepreneur-approaching-front-desk-check-booking-accommodation-close-up_482257-65305.jpg?id=53000719", imageAlt: "Welcoming desk" }
+        },
+      ]}
+      showStepNumbers={false}
+      title="Why Choose Us"
+      description="Experience personalized hospitality in a stunning mountain setting."
+    />
+  </div>
 
-      <div id="gallery" data-section="gallery">
-        <ProductCardFour
-          animationType="slide-up"
-          textboxLayout="default"
-          gridVariant="three-columns-all-equal-width"
-          useInvertedBackground={false}
-          products={[
-            { id: "p1", name: "Comfort Rooms", price: "Standard", variant: "Cozy", imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3Do3l1ShNQWHbImSzzoeNWne4vb/uploaded-1778952295954-n7bhgzrz.jpg" },
-            { id: "p2", name: "Dining Terrace", price: "All Day", variant: "Food", imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3Do3l1ShNQWHbImSzzoeNWne4vb/uploaded-1778952409885-7q53i17j.jpg" },
-            { id: "p3", name: "Poolside Bliss", price: "Relax", variant: "Fun", imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3Do3l1ShNQWHbImSzzoeNWne4vb/uploaded-1778952420780-9g5m1g8m.jpg" },
-          ]}
-          title="Hotel Highlights"
-          description="Take a closer look at what we have to offer."
-        />
-      </div>
+  <div id="gallery" data-section="gallery">
+      <ProductCardFour
+      animationType="slide-up"
+      textboxLayout="default"
+      gridVariant="three-columns-all-equal-width"
+      useInvertedBackground={false}
+      products={[
+        { id: "p1", name: "Comfort Rooms", price: "Standard", variant: "Cozy", imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3Do3l1ShNQWHbImSzzoeNWne4vb/uploaded-1778952295954-n7bhgzrz.jpg" },
+        { id: "p2", name: "Dining Terrace", price: "All Day", variant: "Food", imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3Do3l1ShNQWHbImSzzoeNWne4vb/uploaded-1778952409885-7q53i17j.jpg" },
+        { id: "p3", name: "Poolside Bliss", price: "Relax", variant: "Fun", imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3Do3l1ShNQWHbImSzzoeNWne4vb/uploaded-1778952420780-9g5m1g8m.jpg" },
+        { id: "p4", name: "Mountain Vistas", price: "View", variant: "Nature", imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3Do3l1ShNQWHbImSzzoeNWne4vb/uploaded-1778952438717-k1mft2wc.jpg" },
+        { id: "p5", name: "Grand Entrance", price: "Hotel", variant: "Lobby", imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3Do3l1ShNQWHbImSzzoeNWne4vb/uploaded-1778952617759-kvp9hqrj.jpg" },
+        { id: "p6", name: "Garden Path", price: "Nature", variant: "Flora", imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3Do3l1ShNQWHbImSzzoeNWne4vb/uploaded-1778953619995-n6f4qspc.jpg" },
+      ]}
+      title="Hotel Highlights"
+      description="Take a closer look at what we have to offer."
+    />
+  </div>
 
-      <div id="testimonials" data-section="testimonials">
-        <TestimonialCardSixteen
-          animationType="slide-up"
-          textboxLayout="default"
-          useInvertedBackground={true}
-          testimonials={[
-            { id: "1", name: "Sarah J.", role: "Traveler", company: "UK", rating: 5, imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3Do3l1ShNQWHbImSzzoeNWne4vb/uploaded-1778953588172-e42x8abh.jpg?_wi=1" },
-            { id: "2", name: "Mark R.", role: "Guest", company: "USA", rating: 5, imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3Do3l1ShNQWHbImSzzoeNWne4vb/uploaded-1778953588172-e42x8abh.jpg?_wi=2" },
-          ]}
-          kpiItems={[
-            { value: "154+", label: "Happy Guests" },
-            { value: "4.0", label: "Star Rating" },
-            { value: "Local", label: "Experience" },
-          ]}
-          title="Guest Stories"
-          description="What our guests say about their stay at Club Alda."
-        />
-      </div>
+  <div id="testimonials" data-section="testimonials">
+      <TestimonialCardSixteen
+      animationType="slide-up"
+      textboxLayout="default"
+      useInvertedBackground={true}
+      testimonials={[
+        { id: "1", name: "Sarah J.", role: "Traveler", company: "UK", rating: 5, imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3Do3l1ShNQWHbImSzzoeNWne4vb/uploaded-1778953588172-e42x8abh.jpg?_wi=1" },
+        { id: "2", name: "Mark R.", role: "Guest", company: "USA", rating: 5, imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3Do3l1ShNQWHbImSzzoeNWne4vb/uploaded-1778953588172-e42x8abh.jpg?_wi=2" },
+        { id: "3", name: "Emily P.", role: "Family", company: "France", rating: 4, imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3Do3l1ShNQWHbImSzzoeNWne4vb/uploaded-1778953588172-e42x8abh.jpg?_wi=3" },
+        { id: "4", name: "David W.", role: "Adventurer", company: "Canada", rating: 5, imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3Do3l1ShNQWHbImSzzoeNWne4vb/uploaded-1778953588172-e42x8abh.jpg?_wi=4" },
+        { id: "5", name: "Maria L.", role: "Soloist", company: "Spain", rating: 5, imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3Do3l1ShNQWHbImSzzoeNWne4vb/uploaded-1778953588172-e42x8abh.jpg?_wi=5" },
+      ]}
+      kpiItems={[
+        { value: "154+", label: "Happy Guests" },
+        { value: "4.0", label: "Star Rating" },
+        { value: "Local", label: "Experience" },
+      ]}
+      title="Guest Stories"
+      description="What our guests say about their stay at Club Alda."
+    />
+  </div>
 
-      <div id="faq" data-section="faq">
-        <FaqTwoColumn
-          items={[
-            { question: "Is parking available?", answer: "Yes, we offer complimentary parking for our guests." },
-            { question: "Are pets allowed?", answer: "Please contact our reception desk for our pet policy." },
-            { question: "Do you offer airport transfer?", answer: "Yes, we can arrange airport transfers upon request." },
-          ]}
-          title="Frequently Asked"
-          description="Answers to common questions regarding your stay."
-          textAnimation="slide-up"
-        />
-      </div>
+  <div id="faq" data-section="faq">
+      <FaqBase
+      textboxLayout="default"
+      useInvertedBackground={false}
+      faqs={[
+        { id: "f1", title: "Is parking available?", content: "Yes, we offer complimentary parking for our guests." },
+        { id: "f2", title: "Are pets allowed?", content: "Please contact our reception desk for our pet policy." },
+        { id: "f3", title: "Do you offer airport transfer?", content: "Yes, we can arrange airport transfers upon request." },
+      ]}
+      title="Frequently Asked"
+      description="Answers to common questions regarding your stay."
+      faqsAnimation="slide-up"
+    />
+  </div>
 
-      <div id="contact" data-section="contact">
-        <ContactCTA
-          useInvertedBackground={true}
-          background={{ variant: "plain" }}
-          tag="Contact Us"
-          title="Ready for your getaway?"
-          description="Get in touch for bookings, inquiries, or special requests. We look forward to welcoming you to Club Alda."
-          buttons={[
-            { text: "Book Now", href: "https://www.airbnb.com/rooms/1745494666125517427?adults=1&s=67&unique_share_id=a4e1d19d-6dbb-49e4-822b-0041d0e713cd" },
-            { text: "+90 392 821 87 80", href: "tel:+903928218780" },
-          ]}
-        />
-      </div>
+  <div id="contact" data-section="contact">
+      <ContactCTA
+      useInvertedBackground={true}
+      background={{ variant: "plain" }}
+      tag="Contact Us"
+      title="Ready for your getaway?"
+      description="Get in touch for bookings, inquiries, or special requests. We look forward to welcoming you to Club Alda."
+      buttons={[
+        { text: "Book Now", href: "https://www.airbnb.com/rooms/1745494666125517427?adults=1&s=67&unique_share_id=a4e1d19d-6dbb-49e4-822b-0041d0e713cd" },
+        { text: "+90 392 821 87 80", href: "tel:+903928218780" },
+      ]}
+    />
+  </div>
 
-      <div id="footer" data-section="footer">
-        <FooterLogoReveal
-          logoText="Club Alda"
-          leftLink={{ text: "Privacy Policy", href: "#" }}
-          rightLink={{ text: "Terms of Service", href: "#" }}
-        />
-      </div>
-    </ReactLenis>
+  <div id="footer" data-section="footer">
+      <FooterLogoReveal
+      logoText="Club Alda"
+      leftLink={{ text: "Privacy Policy", href: "#" }}
+      rightLink={{ text: "Terms of Service", href: "#" }}
+    />
+  </div>
+      </ReactLenis>
+    </ThemeProvider>
   );
 }
