@@ -3,7 +3,7 @@
 import { ThemeProvider } from "@/providers/themeProvider/ThemeProvider";
 import ReactLenis from "lenis/react";
 import ContactCTA from '@/components/sections/contact/ContactCTA';
-import FaqBase from '@/components/sections/faq/FaqBase';
+import FaqTwoColumn from '@/components/sections/faq/FaqTwoColumn';
 import FeatureCardNine from '@/components/sections/feature/FeatureCardNine';
 import FooterLogoReveal from '@/components/sections/footer/FooterLogoReveal';
 import HeroBillboardScroll from '@/components/sections/hero/HeroBillboardScroll';
@@ -122,17 +122,15 @@ export default function LandingPage() {
   </div>
 
   <div id="faq" data-section="faq">
-      <FaqBase
-      textboxLayout="default"
-      useInvertedBackground={false}
-      faqs={[
-        { id: "f1", title: "Is parking available?", content: "Yes, we offer complimentary parking for our guests." },
-        { id: "f2", title: "Are pets allowed?", content: "Please contact our reception desk for our pet policy." },
-        { id: "f3", title: "Do you offer airport transfer?", content: "Yes, we can arrange airport transfers upon request." },
+      <FaqTwoColumn
+      items={[
+        { question: "Is parking available?", answer: "Yes, we offer complimentary parking for our guests." },
+        { question: "Are pets allowed?", answer: "Please contact our reception desk for our pet policy." },
+        { question: "Do you offer airport transfer?", answer: "Yes, we can arrange airport transfers upon request." },
       ]}
       title="Frequently Asked"
       description="Answers to common questions regarding your stay."
-      faqsAnimation="slide-up"
+      textAnimation="slide-up"
     />
   </div>
 
